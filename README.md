@@ -1,10 +1,6 @@
 # Crossbow 🏹
 
-[![CI/CD](https://github.com/yourusername/crossbow/actions/workflows/rust.yml/badge.svg)](https://github.com/yourusername/crossbow/actions)
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
-[![PyPI version](https://badge.fury.io/py/crossbow-rs.svg)](https://badge.fury.io/py/crossbow-rs)
-[![Python Versions](https://img.shields.io/pypi/pyversions/crossbow-rs.svg)](https://pypi.org/project/crossbow-rs/)
-
 **High-performance data ingestion for scientific computing**
 
 Crossbow is a Rust-powered data parsing library with Python bindings, designed for efficiently converting large Excel and CSV files into Apache Arrow format. Built with the Rust ecosystem's best practices and Python's scientific computing in mind.
