@@ -21,6 +21,7 @@ Crossbow is a Rust-powered data parsing library with Python bindings, designed f
 
 ## Usage
 
+### Python API
 ```python
 import crossbow as cxb
 import pyarrow as pa
@@ -39,6 +40,31 @@ print(f"Excel Data:\n{excel_df.head()}")
 print(f"\nCSV Data:\n{csv_df.head()}")
 ```
 
+### Command Line Interface
+```bash
+# Interactive mode (select file and sheet from current directory)
+crossbow
+
+# Process specific Excel file with sheet selection
+crossbow --file data.xlsx --sheet Sheet1
+
+# Process CSV file
+crossbow --file data.csv
+
+# Verbose mode for debugging
+crossbow --file large_dataset.ods --verbose
+
+# Output options (future implementation)
+crossbow --file data.xlsx --output results.parquet
+```
+
+Key CLI Features:
+- Interactive file/sheet selection
+- Automatic format detection
+- Progress indicators
+- Error logging with stack traces
+- Memory usage monitoring
+
 ## Architecture
 
 ```mermaid
@@ -53,7 +79,7 @@ style C fill:#ffe4b2,stroke:#666
 
 ## Prerequisites
 
-- Rust 1.65+ (via [rustup](https://rustup.rs/))
+- Rust 1.70+ (via [rustup](https://rustup.rs/))
 - Python 3.12
 
 ## Development Setup
@@ -83,6 +109,8 @@ maturin develop --release
 ```
 
 ## Contributing
+
+We welcome contributions! Please see our [Contribution Guidelines](CONTRIBUTING.md) for details.
 
 Contributions are welcome! Please refer to these contribution guidelines:
 
