@@ -54,7 +54,7 @@ style C fill:#ffe4b2,stroke:#666
 ## Prerequisites
 
 - Rust 1.65+ (via [rustup](https://rustup.rs/))
-- Python 3.7+
+- Python 3.12
 
 ## Development Setup
 
@@ -99,22 +99,6 @@ Apache 2.0 - See [LICENSE](LICENSE) for details.
 ---
 
 Developed with ❤️ by Pranav Jayakumar | Powered by [Apache Arrow](https://arrow.apache.org/) and [Rust](https://www.rust-lang.org/)
-
-```
-
-```
-
-```
-
-```
-
-```
-
-```
-
-```
-
-```
 
 ```
 
