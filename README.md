@@ -22,6 +22,7 @@ Crossbow is a Rust-powered data parsing library with Python bindings, designed f
 ## Usage
 
 ### Python API
+
 ```python
 import crossbow as cxb
 import pyarrow as pa
@@ -41,6 +42,7 @@ print(f"\nCSV Data:\n{csv_df.head()}")
 ```
 
 ### Command Line Interface
+
 ```bash
 # Interactive mode (select file and sheet from current directory)
 crossbow
@@ -59,6 +61,7 @@ crossbow --file data.xlsx --output results.parquet
 ```
 
 Key CLI Features:
+
 - Interactive file/sheet selection
 - Automatic format detection
 - Progress indicators
@@ -127,7 +130,3 @@ Apache 2.0 - See [LICENSE](LICENSE) for details.
 ---
 
 Developed with ❤️ by Pranav Jayakumar | Powered by [Apache Arrow](https://arrow.apache.org/) and [Rust](https://www.rust-lang.org/)
-
-```
-
-```
